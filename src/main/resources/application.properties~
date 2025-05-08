@@ -8,4 +8,4 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.h2.console.enabled=true
 
 Spring.jpa.show-sql=true
-Spring.jpa.hibernate.ddl-auto=update
+Spring.jpa.ddl-auto=update
