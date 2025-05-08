@@ -54,7 +54,7 @@ public class ReviewServiceImpl implements ReviewService {
             review.setRating(updateReview.getRating());
             review.setCompanyId(updateReview.getCompanyId());
             reviewRepository.save(review);
-            return  true;
+            return  true;   
        }else{
            return false;
        }
