@@ -70,4 +70,4 @@ public class ReviewController {
         List<Review> reviewList= reviewService.getAllReview(companyId);
         return  reviewList.stream().mapToDouble(Review::getRating).average().orElse(0.0);
     }
-}
+} 
